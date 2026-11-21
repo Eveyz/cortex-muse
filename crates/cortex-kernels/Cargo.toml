@@ -1,0 +1,10 @@
+[package]
+name = "cortex-kernels"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "1.58-bit ternary kernels + Gated DeltaNet linear SSM (layers 1-3 of Cortex-Local)"
+
+[dependencies]
+
+[dev-dependencies]

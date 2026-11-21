@@ -1,0 +1,9 @@
+[package]
+name = "cortex-ssm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Gated DeltaNet O(1) state layer + INT8 ring sliding-window attention"
+
+[dependencies]
+cortex-kernels = { path = "../cortex-kernels" }

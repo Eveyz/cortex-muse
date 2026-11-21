@@ -1,0 +1,9 @@
+[package]
+name = "cortex-hippocampus"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Lock-free double-buffered online neural memory (layer 4 of Cortex-Local)"
+
+[dependencies]
+cortex-kernels = { path = "../cortex-kernels" }

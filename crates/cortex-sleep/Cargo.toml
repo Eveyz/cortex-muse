@@ -1,0 +1,10 @@
+[package]
+name = "cortex-sleep"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Night-time consolidation: MeZO zero-order scale tuning, replay, orthogonalization"
+
+[dependencies]
+cortex-kernels = { path = "../cortex-kernels" }
+cortex-hippocampus = { path = "../cortex-hippocampus" }
